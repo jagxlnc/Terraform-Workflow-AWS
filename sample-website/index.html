@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP Static Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            background: #0066cc;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .content {
+            background: #fff;
+            padding: 2rem;
+            margin-top: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to MCP Static Website</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="content">
+            <h2>Hello from AWS CloudFront and S3!</h2>
+            <p>This is a sample static website hosted on Amazon S3 and delivered through Amazon CloudFront.</p>
+            <p>The infrastructure for this website was created using Terraform.</p>
+            
+            <h3>Features of this setup:</h3>
+            <ul>
+                <li>Private S3 bucket with static website hosting enabled</li>
+                <li>CloudFront distribution for secure content delivery</li>
+                <li>Infrastructure as Code using Terraform</li>
+                <li>Automated deployment through GitHub Actions</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MCP Static Website Demo</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "private_bucket" {
-  bucket = "mcp-demo-1804"
+  bucket = "mcp-demo-2025"
 
   tags = {
-    Name        = "MCP-Demo-1804"
+    Name        = "MCP-DEMO-2025"
     Environment = var.environment
     Terraform   = "true"
   }
